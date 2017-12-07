@@ -1,0 +1,25 @@
+{
+  "name": "maskemail",
+  "version": "1.0.0",
+  "description": "Converts example@test.com into e******@t***.com for secure display",
+  "main": "src/maskemail.js",
+  "scripts": {
+    "test": "node spec/support/jasmine-runner.js"
+  },
+  "files": ["src", "*.md", "LICENSE"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gojko/maskemail.git"
+  },
+  "keywords": [],
+  "author": "Gojko Adzic https://gojko.net/about",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gojko/maskemail/issues"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0",
+    "jasmine-spec-reporter": "^4.1.1"
+  },
+  "homepage": "https://github.com/gojko/maskemail#readme"
+}
